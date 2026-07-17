@@ -1,7 +1,6 @@
--- Write your SQL here
-
--- Create Database
-
--- Use Database
-
--- Create Department Table
+use collageDBBCA;
+CREATE TABLE STUDENT1 (studentID INT (5) PRIMARY KEY, studentName 
+  VARCHAR (20) NOT NULL, DOB DATE , Gender VARCHAR(10),
+  DepartmentID INT(5));
+  SELECT*FROM STUDENT1;
+  DESC STUDENT ;
