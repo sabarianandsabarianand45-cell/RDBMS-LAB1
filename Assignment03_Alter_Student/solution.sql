@@ -1,7 +1,3 @@
--- Alter Student table
-
--- Add Email
-
--- Add PhoneNumber
-
--- Display structure
+USE COLLAGEDBBCA;
+alter TABLE STUDENT add (Email VARCHAR(30),PHONENUMBER INT (10));
+DESC STUDENT;
