@@ -1,6 +1,4 @@
-use collageDBBCA;
-CREATE TABLE STUDENT1 (studentID INT (5) PRIMARY KEY, studentName 
-  VARCHAR (20) NOT NULL, DOB DATE , Gender VARCHAR(10),
-  DepartmentID INT(5));
-  SELECT*FROM STUDENT1;
-  DESC STUDENT ;
+create database collegedb;
+use collegedb;
+create table department(Department_id INT PRIMARY KEY,department_Name VARCHAR(100),HOD VARCHAR(100) );
+select*from department;
